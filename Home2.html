@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ----------------------------------------------------- HEAD ----------------------------------------------------- -->
+
+<head>
+    <title>Home Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+
+
+    <!--  Custom Style CSS  -->
+    <link rel="stylesheet" href="Styles.css">
+
+</head>
+
+
+
+
+<!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+<body>
+
+
+    <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+    <!--                                              Colapsing Menu                                                      -->
+
+    <!-- ---------------------------------------------------------------------------------------------------------------- -->
+    <div id="collapse-item" class="collapse width ">
+
+        <!-- Close button -->
+        <button type="button" class="close width" data-target="#collapse-item" data-toggle="collapse"
+            style=" position: absolute; top: 20px; right: 45px; color: white;">
+            <span aria-hidden="true">&times;</span>
+        </button>
+
+        <!-- Main menu -->
+        <div class="content-container"
+            style=" position: relative; top: 25%; margin-left: 35%; margin-right: 35%; text-align: center; padding: 0%;">
+
+            <ul class="flex-md-column flex-row p-0 justify-content-between"
+                style="list-style-type: none; text-align: justify;">
+
+                <li class="item" style="margin-bottom: 50px;">
+                    <a class="Brand" href="#collapse-item" data-target="#collapse-item">
+                        <img class="img" src="images\logo white-crop-u22534.png" alt="Home" style="width: 50px;">
+                    </a>
+                </li>
+                <li class="item" style="margin-bottom: 15px;">
+                    <a class="link active" href="Home2.html">
+                        Home
+                    </a>
+                </li>
+                <li class="item" style="margin-bottom: 15px;">
+                    <a class="link" href="Store.html">
+                        Store
+                    </a>
+                </li>
+                <li class="item" style="margin-bottom: 15px;">
+                    <a class="link" href="Contact.html">
+                        Contact
+                    </a>
+                </li>
+                <li class="item" style="margin-bottom: 15px;">
+                    <a class="link" href="Account.html">
+                        Account
+                    </a>
+                </li>
+                <li class="item" style="margin-bottom: 15px;">
+                    <a class="link" href="Sustainability.html">
+                        Sustainability
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="social-items p-0" style="float: left;">
+
+                <a class="nav-link p-0" href="#" style="float: left; margin-right: 10px;">
+                    <img class="img" src="images/instagram-sketched_poster_.png" alt="Instagram" style="width: 35px;">
+                </a>
+                <a class="nav-link p-0" href="#" style="float: left;">
+                    <img class="img" src="images/facebook_poster_.png" alt="Instagram" style="width: 35px;">
+                </a>
+
+            </div>
+
+            <div class="cart-container w-100 d-flex flex-row-reverse"
+                style=" height: 50px; top: 0px; position: absolute; padding: 0px; margin-right: 0px;">
+
+
+
+                <!-- Cart & Account small container-->
+                <div class="area p-0"
+                    style=" text-align: left; background-color: rgb(189,205,196); height:50px; width:280px; margin-right:0px; padding:0px; border-radius: 50px 0px 0px 50px;">
+
+                    <!-- Cart Button-->
+                    <button type="button" class="btn" style="width:20%; padding:0px; margin:0px;">
+
+                        <!-- Items in Cart Badge -->
+                        <span class="badge position-absolute m-0"
+                            style="background-color:rgb(174, 144, 49); width:20px; height:20px; border-radius: 10px; text-align: center; font-size:12px; color:white; position: absolute; left:180px; top:1px;">
+                            0
+                        </span>
+
+                        <img class="cart-img" src="images/cart_paypal_samples_01.png" alt="Item" style="width: 100%;">
+
+                    </button>
+
+                    <!-- Account Button-->
+                    <button type="button" class="btn" style="width:18%; padding:0px; margin:0px;">
+                        <img class="account-img" src="images/user (1)_poster_u30531.png" alt="Item"
+                            style="width: 100%;">
+                    </button>
+
+
+                    <span class="text" style="color:white; font-size:14px; height: 100px; width: 20%; border: solid 1px; border-color: black;">
+                        Login/
+                        Sign Up
+                    </span>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <div class="container-fluid" style="background-color: rgb(241, 235, 223)">
+
+        <div class="row min-vh-100 flex-column flex-md-row ">
+
+
+            <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+            <!--                                           Side Navigation Bar                                                    -->
+
+            <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+            <aside class="col-12 col-sm-auto p-0 "
+                style="background-color: rgb(234, 234, 234); min-width: 60px; min-height: 60px;">
+                <!-- flex-shrink-1 min-height: 60px; -->
+
+                <nav class="navbar navbar-expand navbar-light flex-md-column flex-row h-100 py-2">
+                    <!-- align-items-start -->
+
+                    <!-- <div class="collapse navbar-collapse"> -->
+                    <!--  -->
+
+                    <ul class="flex-md-column flex-row navbar-nav h-100 fixed-top justify-content-between"
+                        style="width: 60px;">
+                        <!-- justify-content-between fixed fixed-top  postion-fixed " w-100 -->
+
+
+                        <li class="nav-item">
+                            <a class="nav-brand pl-1" href="#">
+                                <img class="img" src="images\logo black-crop-u22421.png" alt="Logo"
+                                    style="width: 50px;">
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link p-3" data-toggle="collapse" href="#collapse-item"
+                                data-target="#collapse-item">
+                                <img class="img" src="images/menu-4-xxl.png" alt="Instagram" style="width: 25px;">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-3" href="#">
+                                <img class="img" src="images/instagram-sketched_poster_.png" alt="Instagram"
+                                    style="width: 20px;">
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <!-- </div> -->
+
+                </nav>
+
+            </aside>
+
+
+
+
+
+            <main class="col flex-grow-1 p-0 ">
+
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+                <!--                                                Cart&Account                                                      -->
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+                <div class="cart-container d-flex flex-row-reverse w-100 fixed-top"
+                    style=" height: 50px; margin-top: 50px; padding: 0px; margin-right: 0px;">
+
+                    <!-- Cart & Account small container-->
+                    <div class="area"
+                        style="background-color: rgb(189,205,196); height:50px; width:110px; margin-right:0px; padding:0px; border-radius: 50px 0px 0px 50px;">
+
+                        <!-- Cart Button-->
+                        <button type="button" class="btn" style="width:50%; padding:0px; margin:0px;">
+
+                            <!-- Items in Cart Badge -->
+                            <span class="badge position-absolute m-0"
+                                style="background-color:rgb(174, 144, 49); width:20px; height:20px; border-radius: 10px; text-align: center; font-size:12px; color:white; position: absolute; right:62px; top:1px;">
+                                3
+                            </span>
+
+                            <img class="cart-img" src="images/cart_paypal_samples_01.png" alt="Item"
+                                style="width: 100%;">
+
+                        </button>
+
+                        <!-- Account Button-->
+                        <button type="button" class="btn" style="width:45%; padding:0px; margin:0px;">
+                            <img class="account-img" src="images/user (1)_poster_u30531.png" alt="Item"
+                                style="width: 100%;">
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+                <!--                                                  Carousel                                                        -->
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+                <div id="carouselSlides" class="carousel slide carousel-fade" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <!-- Slide One - Set the background image for this slide in the line below -->
+                        <div class="carousel-item active" style="background-image: url('images/desktop hero - 2_.jpg')">
+                        </div>
+                        <!-- Slide Two - Set the background image for this slide in the line below -->
+                        <div class="carousel-item" style="background-image: url('images/desktop hero - 3.jpg')">
+                        </div>
+                        <!-- Slide Three - Set the background image for this slide in the line below -->
+                        <div class="carousel-item" style="background-image: url('images/desktop hero - 4.jpg')">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+                <!--                                                  Heading                                                          -->
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+
+                <div class="text1">
+                    <h1> Premium
+                        <br>
+                        Selection
+                    </h1>
+                </div>
+
+
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+                <!--                                        1st Set Card Columns of Items                                             -->
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+
+                <div class="card-columns">
+
+                    <div class="card">
+                        <img src="images/gp 2.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/gp 1.png" class="img-top" alt="Card Front" style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">Blue Green Utility Jacket</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/tw 1.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/tw 2.png" class="img-top" alt="Card Front" style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">Teal Purple Gilet</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/s 1.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/s 1.png" class="img-top" alt="Card Front" style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">John Doe</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/l 1-buttonu60133-fr.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/l 1-buttonu60133-fr.png" class="img-top" alt="Card Front" style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">John Doe</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="images/lp 1.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/llp 2.png" class="img-top" alt="Card Front" style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">John Doe</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/pr 1.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/pr 2.png" class="img-top" alt="Card Front" style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">John Doe</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/sx 2.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/sx 1.png" class="img-top" alt="Card Front" style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">John Doe</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="images/t 1-buttonu60271-fr.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/t 1-buttonu60271-fr.png" class="img-top" alt="Card Front" style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">John Doe</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/pf 1.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/pf 1.png" class="img-top" alt="Card Front" style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">John Doe</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="images/rv 2-buttonu60550-r-fr.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/rv 1-buttonu60523-fr.png" class="img-top" alt="Card Front"
+                            style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">John Doe</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="images/wg 1-buttonu60493-fr.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/wg 1-buttonu60493-fr.png" class="img-top" alt="Card Front"
+                            style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">John Doe</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/lrp 1-buttonu60661-fr.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/lrp 2-buttonu60661-r-fr.png" class="img-top" alt="Card Front"
+                            style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">John Doe</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+                <!--                                                  Mid-Banner                                                      -->
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+                <div class="banner-container">
+
+                    <div class="banner">
+
+                        <!-- Banner of Image -->
+                        <div class="banner-img" style="background-image: url('images/desktop hero - awa.jpg')">
+
+                            <!-- Shop Now Button-->
+                            <button type="button" class="btn "
+                                style="margin-top: 500px; right: 200px; position: absolute; background-color: rgb(54, 68, 55); color: white; height: 50px; width: 215px; font-family: sans-serif;">
+                                Shop Now
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+                <!--                                       2nd Card Columns of Items                                                   -->
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+
+                <div class="card-columns">
+
+                    <div class="card">
+                        <img src="images/wf 1-buttonu60772-fr.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/wf 1-buttonu60772-fr.png" class="img-top" alt="Card Front"
+                            style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">John Doe</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="images/bl 1.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/bl 1.png" class="img-top" alt="Card Front" style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">John Doe</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img src="images/db 2-buttonu60826-r-fr.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/db 1-buttonu60826-fr.png" class="img-top" alt="Card Front"
+                            style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">John Doe</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/bg 1.png" alt="Card Back" style="width: 100%;">
+                        <img src="images/bg 2.png" class="img-top" alt="Card Front" style="width: 100%;">
+                        <!-- <img class="card-img" src="images/gp 2.png" alt="back card">
+                        <img class="img-top" src="images/gp 1.png" alt="front card"> -->
+                        <div class="card-img-overlay">
+                            <!-- Title -->
+                            <h4 class="card-title">John Doe</h4>
+                            <!-- Add button -->
+                            <button type="button" class="btn btn-light btn-circle btn-md">
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+                <!--                                                  Vision-Banner                                                   -->
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+
+                <!-- Background image for vision -->
+                <div class="vision-img" style="background-image: url('images/adobestock_308488812-u23798-fr.jpg')">
+
+                    <div class="row h-100">
+
+                        <div class="col-sm-5 m-0 h-100" style="border: 3px solid #4CAF50;">
+
+                            <div class="text2">
+                                <h1> Vision </h1>
+                            </div>
+
+                            <div class="text3">
+                                <p>
+                                    Apara is an on-line clothing market that provides sustainable and ethical
+                                    apparel
+                                    that appeals to current cultural trends.
+                                    <br>
+                                    <br>
+                                    We believe that Fashion is the ultimate form of expression. We are Apara and
+                                    we want
+                                    to help you find your voice.
+                                    Expressing your uniqueness can be a challenge, trust us we know.
+                                    Fortunately for you, we have made it our business to sauce up your life.
+                                    Our collections are exclusive, vibrant, one of a kind and appeal to current
+                                    cultural
+                                    trends.
+                                    And the best part, to make our stand against global textile waste, our
+                                    marketplace
+                                    collections are either pre-owned or made from sustainable and ethically
+                                    sourced
+                                    fabrics.
+                                    <br>
+                                    <br>
+                                    Explore our Sustainability page to see how you can make a difference </p>
+                            </div>
+
+                        </div>
+
+                        <div class="col-sm-7 m-0 h-100" style="border: 3px solid #4CAF50;">
+                            <!-- Small floating image -->
+                            <img class="sml-img" src="images/img_2927.jpg" alt="Item">
+                            <figcaption class="figure-caption text-center"
+                                style="font-size:12px; color:rgb(54, 68, 55); margin-left:100px;"> Invested Vintage
+                            </figcaption>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <!--</div>-->
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+                <!--</div>-->
+
+            </main>
+
+        </div>
+    </div>
+
+
+</body>
+
+<script>
+
+    $('.btn btn-light btn-circle btn-md').on('click', function () {
+        console.log("pressed");
+        var cart = $('.cart-container');
+        var imgtodrag = $(this).parent('.card').find('img-top').eq(0);
+        
+        if (imgtodrag) {
+            var imgclone = imgtodrag.clone()
+                .offset({
+                    top: imgtodrag.offset().top,
+                    left: imgtodrag.offset().left
+                })
+                .css({
+                    'opacity': '0.5',
+                    'position': 'absolute',
+                    'height': '150px',
+                    'width': '150px',
+                    'z-index': '100'
+                })
+                .appendTo($('body'))
+                .animate({
+                    'top': cart.offset().top + 10,
+                    'left': cart.offset().left + 10,
+                    'width': 75,
+                    'height': 75
+                }, 1000, 'easeInOutExpo');
+
+           /* setTimeout(function () {
+                cart.effect("shake", {
+                    times: 2
+                }, 200);
+            }, 1500);
+*/
+            imgclone.animate({
+                'width': 0,
+                'height': 0
+            },1000, function () {
+                $(this).detach()
+            });
+        }
+    });
+    
+</script>
+
+</html>

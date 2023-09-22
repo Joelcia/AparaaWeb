@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <title>Change Image on Hover in CSS</title>
+
+
+    <!--  Custom Style CSS  -->
+    <link rel="stylesheet" href="Styles.css">
+    <style>
+        
+    </style>
+</head>
+
+
+<body>
+
+    <div id="main">
+
+        <div class="container-fluid" style="background-color: rgb(241, 235, 223)">
+
+            <div class="row min-vh-100 flex-column flex-md-row ">
+
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+                <!--                                           Side Navigation Bar                                                    -->
+
+                <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+                <aside class="col-12 col-sm-auto p-0 "
+                    style="background-color: rgb(234, 234, 234); min-width: 60px; min-height: 60px;">
+                    <!-- flex-shrink-1 min-height: 60px; -->
+
+                    <nav class="navbar navbar-expand navbar-light flex-md-column flex-row h-100 py-2">
+                        <!-- align-items-start -->
+
+                        <!-- <div class="collapse navbar-collapse"> -->
+                        <!--  -->
+
+                        <ul class="flex-md-column flex-row navbar-nav h-100 fixed-top justify-content-between"
+                            style="width: 60px;">
+                            <!-- justify-content-between fixed fixed-top  postion-fixed " w-100 -->
+
+
+                            <li class="nav-item">
+                                <a class="nav-brand pl-1" href="#">
+                                    <img class="img" src="images\logo black-crop-u22421.png" alt="Logo"
+                                        style="width: 50px;">
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link p-3" onclick="openNav()">
+                                    <img class="img" src="images/menu-4-xxl.png" alt="Menu"
+                                        style="width: 25px;">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-3" href="#">
+                                    <img class="img" src="images/instagram-sketched_poster_.png" alt="Instagram"
+                                        style="width: 20px;">
+                                </a>
+                            </li>
+
+                        </ul>
+
+                        <!-- </div> -->
+
+                    </nav>
+
+                </aside>
+
+
+                <main class="col flex-grow-1 p-0 ">
+
+
+
+
+                    <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+                    <!--                                                  Carousel                                                        -->
+
+                    <!-- ---------------------------------------------------------------------------------------------------------------- -->
+
+                    <div id="carouselSlides" class="carousel slide carousel-fade" data-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <!-- Slide One - Set the background image for this slide in the line below -->
+                            <div class="carousel-item active"
+                                style="background-image: url('images/desktop hero - 2_.jpg')">
+                            </div>
+                            <!-- Slide Two - Set the background image for this slide in the line below -->
+                            <div class="carousel-item" style="background-image: url('images/desktop hero - 3.jpg')">
+                            </div>
+                            <!-- Slide Three - Set the background image for this slide in the line below -->
+                            <div class="carousel-item" style="background-image: url('images/desktop hero - 4.jpg')">
+                            </div>
+                        </div>
+                    </div>
+                </main>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+ 
+
+    </script>
+
+</body>
+
+</html>
